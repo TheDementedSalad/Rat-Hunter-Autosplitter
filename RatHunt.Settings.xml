@@ -1,0 +1,26 @@
+<Settings>
+    <Setting Id="Level"  Label="Level Splits" State="false">
+		<Setting Id="Level_2.xml"  Label="Complete Level 1" State="false"/>
+		<Setting Id="Level_3.xml"  Label="Complete Level 2" State="false"/>
+		<Setting Id="Level_4.xml"  Label="Complete Level 3" State="false"/>
+		<Setting Id="Level_5.xml"  Label="Complete Level 4" State="false"/>
+		<Setting Id="Level_6.xml"  Label="Complete Level 5" State="false"/>
+		<Setting Id="Level_7.xml"  Label="Complete Level 6" State="false"/>
+		<Setting Id="Level_8.xml"  Label="Complete Level 7" State="false"/>
+		<Setting Id="Level_9a.xml"  Label="Complete Level 8" State="false"/>
+		<Setting Id="Level_9b.xml"  Label="Complete Level 9" State="false"/>
+		<Setting Id="Level_10.xml"  Label="Complete Level 10" State="false"/>
+		<Setting Id="Level_11.xml"  Label="Complete Level 11" State="false"/>
+		<Setting Id="Level_12.xml"  Label="Complete Level 12" State="false"/>
+		<Setting Id="Level_16.xml"  Label="Complete Level 13" State="false"/>
+		<Setting Id="Level_17.xml"  Label="Complete Level 14" State="false"/>
+		<Setting Id="Level_19.xml"  Label="Complete Level 15" State="false"/>
+		<Setting Id="Level_20a.xml"  Label="Complete Level 17" State="false"/>
+		<Setting Id="Level_20b.xml"  Label="Complete Level 18" State="false"/>
+		<Setting Id="Level_21.xml"  Label="Complete Level 19" State="false"/>
+		<Setting Id="Level_22b.xml"  Label="Complete Level 20" State="false"/>
+		<Setting Id="Level_23.xml"  Label="Complete Level 21" State="false"/>
+		<Setting Id="Level_24.xml"  Label="Complete Level 22" State="false"/>
+		<Setting Id="Level_outro.xml"  Label="Complete Final Level (Always Active)" State="false"/>
+	</Setting>
+</Settings>
