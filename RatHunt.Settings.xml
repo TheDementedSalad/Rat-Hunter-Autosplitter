@@ -7,7 +7,7 @@
 		<Setting Id="Level_6.xml"  Label="Complete Level 5" State="false"/>
 		<Setting Id="Level_7.xml"  Label="Complete Level 6" State="false"/>
 		<Setting Id="Level_8.xml"  Label="Complete Level 7" State="false"/>
-		<Setting Id="Level_9a.xml"  Label="Complete Level 8" State="false"/>
+		<Setting Id="Level_9.xml"  Label="Complete Level 8" State="false"/>
 		<Setting Id="Level_9b.xml"  Label="Complete Level 9" State="false"/>
 		<Setting Id="Level_10.xml"  Label="Complete Level 10" State="false"/>
 		<Setting Id="Level_11.xml"  Label="Complete Level 11" State="false"/>
