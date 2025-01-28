@@ -17,6 +17,7 @@ state("RatHunter")
 
 startup
 {
+	timer.CurrentTimingMethod = TimingMethod.GameTime;
 	Assembly.Load(File.ReadAllBytes("Components/asl-help")).CreateInstance("Basic");
 	vars.Helper.Settings.CreateFromXml("Components/RatHunt.Settings.xml");
 }
@@ -78,4 +79,5 @@ isLoading
 
 reset
 {
+	return current.Loading && (old.GameState != "1.xml" && current.GameState == "1.xml");
 }
