@@ -13,6 +13,7 @@ state("RatHunter")
 	bool		Loading:		0x28B1C0, 0x88;
 	//string100	bspMap:			0x28B1C0, 0x120, 0x24, 0x8;
 	string100	GameState:		0x28B1C0, 0x120, 0x30, 0x0;
+	float		BossHP:			0x28B1C0, 0x120, 0x6C, 0xEC, 0x458, 0x39C, 0x1E4;
 }
 
 startup
@@ -59,7 +60,11 @@ split
 		setting = "Level_" + current.GameState;
 	}
 	
-	if(current.GameState == "outro.xml" && string.IsNullOrEmpty(old.GameState)){
+	//if(current.GameState == "outro.xml" && string.IsNullOrEmpty(old.GameState)){
+		//return true;
+	//}
+
+	if (current.GameState == "24.xml" && old.BossHP > 0 && current.BossHP <= 0) {
 		return true;
 	}
 
