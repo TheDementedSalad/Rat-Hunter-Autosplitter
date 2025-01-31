@@ -59,7 +59,11 @@ split
 		setting = "Level_" + current.GameState;
 	}
 	
-	if(current.GameState == "outro.xml" && string.IsNullOrEmpty(old.GameState)){
+	//if(current.GameState == "outro.xml" && string.IsNullOrEmpty(old.GameState)){
+		//return true;
+	//}
+
+	if (current.GameState == "24.xml" && old.BossHP > 0 && current.BossHP <= 0) {
 		return true;
 	}
 
